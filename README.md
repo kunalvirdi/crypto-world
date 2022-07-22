@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run this on your computer you have to run following commands plus you have node js install in your computer:
 
 ### `npm install`
 
