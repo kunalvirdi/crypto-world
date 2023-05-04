@@ -1,4 +1,3 @@
-import './App.css'
 import React,{Suspense} from "react";
 import {Navbar} from "./components";
 import {Route, Switch,Redirect} from "react-router-dom";
@@ -6,6 +5,7 @@ import {useDispatch} from "react-redux";
 import {useEffect} from "react";
 import { fetchData} from "./services/crypto-api";
 import loader from "./assests/loader.gif";
+import './App.css'
 
 const Cryptocurrencies=React.lazy(()=>import('./components/Cryptocurrencies/Cryptocurrencies'))
 const Homepage=React.lazy(()=>import('./components/Homepage/Homepage'))
