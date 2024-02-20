@@ -1,6 +1,6 @@
 import styles from './New.module.css'
 import moment from "moment";
-import image from '../../assets/logo.png'
+import image from '../../../public/logo.png'
 
 const New=(props)=>{
 	return (
